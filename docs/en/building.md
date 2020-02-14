@@ -1,6 +1,6 @@
 # Building
 
-One important thing to understand is that `electron-webpack` is agnostic about the build tool you decide to use for creating your distributable `electron` application. The only concern of this module is to create a `webpack` output that functions properly and is optimized for the `electron` enviroment.
+One important thing to understand is that `electron-webpack` is agnostic about the build tool you decide to use for creating your distributable `electron` application. The only concern of this module is to create a `webpack` output that functions properly and is optimized for the `electron` environment.
 
 ### Compiling your code
 
@@ -18,7 +18,7 @@ After running the above script with `yarn compile`, you now have a `webpack` out
 
 ### Building a distribution
 
-Now that `electron-webpack` has created your `webpack` bundle, you can simply implement any build tool you would like. One thing to note is that additional optimizations have been made to work with [`electron-builder`](https://github.com/electron-userland/electron-builder). This build tool is perfect for any sized application, providing many features from creating installable executables to providing "auto update" support. `electron-webpack` also interally provides a base configuration for [`electron-builder`](https://github.com/electron-userland/electron-builder).
+Now that `electron-webpack` has created your `webpack` bundle, you can simply implement any build tool you would like. One thing to note is that additional optimizations have been made to work with [`electron-builder`](https://github.com/electron-userland/electron-builder). This build tool is perfect for any sized application, providing many features from creating installable executables to providing "auto update" support. `electron-webpack` also internally provides a base configuration for [`electron-builder`](https://github.com/electron-userland/electron-builder).
 
 #### Using `electron-builder`
 
