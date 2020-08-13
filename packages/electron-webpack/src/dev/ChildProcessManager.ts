@@ -4,7 +4,7 @@ import * as path from "path"
 const debug = require("debug")("electron-webpack")
 
 export function run(program: string, args: Array<string>, options: SpawnOptions) {
-  const isWin = process.platform === "win32"
+  const isWin = false
   return spawn(isWin ? path.join(__dirname, "../../vendor/runnerw.exe") : program, isWin ? [program].concat(args) : args, options)
 }
 
